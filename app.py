@@ -4,15 +4,46 @@ import json
 import re
 import matplotlib.pyplot as plt
 import os
+from spacy.cli import download
 
-# --- 1. Load our NEW 1000-Command Model ---
+# --- Auto-download the base English model if not present ---
+try:
+    spacy.load("en_core_web_sm")
+except OSError:
+    print("Downloading en_core_web_sm model...")
+    download("en_core_web_sm")
+
+# --- 1. Smart Model Loader ---
+# This function finds the model folder, no matter where it is
 @st.cache_resource
 def load_model():
-    try:
-        # POINTING TO THE NEW MODEL FOLDER
-        return spacy.load("./model_output_1000/model-best")
-    except IOError:
-        st.error("ERROR: Trained model not found in './model_output_1000/model-best'")
+    print("Attempting to load model...")
+    # Get the absolute path of the directory this script is in
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Path 1: The expected path from our project
+    model_path_standard = os.path.join(script_dir, "model_output_1000", "model-best")
+    
+    # Path 2: Just the model-best folder in the root
+    model_path_flat = os.path.join(script_dir, "model-best")
+    
+    # Path 3: The root directory itself
+    model_path_root = script_dir
+
+    if os.path.exists(model_path_standard):
+        print(f"Found model at: {model_path_standard}")
+        return spacy.load(model_path_standard)
+    elif os.path.exists(model_path_flat):
+        print(f"Found model at: {model_path_flat}")
+        return spacy.load(model_path_flat)
+    elif os.path.exists(os.path.join(model_path_root, "config.cfg")):
+        print(f"Found model at: {model_path_root}")
+        return spacy.load(model_path_root)
+    else:
+        st.error(f"ERROR: Could not find model files.")
+        st.error(f"Checked in: {model_path_standard}")
+        st.error(f"Checked in: {model_path_flat}")
+        st.error(f"Checked in: {model_path_root}")
         return None
 
 nlp = load_model()
@@ -27,13 +58,13 @@ def clean_value(value_str):
     return None
 
 def generate_command(parsed_json):
-    # Fallback Logic
     intent = None
     slots = parsed_json["slots"]
     
     if parsed_json["intents"]:
         intent = parsed_json["intents"][0]
     else:
+        # Fallback: If no intent, but we have slots, guess 'fly'
         if "distance" in slots and "direction" in slots:
             intent = "fly"
             st.info("No intent found, but slots detected. Assuming 'fly'.")
@@ -66,6 +97,7 @@ def generate_command(parsed_json):
     elif intent == "capture":
         count = clean_value(slots.get("count"))
         if not count:
+            # Bug fix: check distance slot if count is missing
             count = clean_value(slots.get("distance")) 
         if not count:
             count = 1
@@ -75,6 +107,7 @@ def generate_command(parsed_json):
          final_command = {"command": "SCAN_AREA"}
 
     elif intent == "return":
+        # Special move command to go home
         final_command = {"command": "MOVE", "direction": "home", "distance_meters": 0}
         
     elif intent == "takeoff":
@@ -85,13 +118,13 @@ def generate_command(parsed_json):
 
     return final_command
 
-# --- Section 1: Initialize Drone State ---
+# --- 3. Initialize Drone State (Session Memory) ---
 if 'x_pos' not in st.session_state:
     st.session_state.x_pos = 0
 if 'y_pos' not in st.session_state:
     st.session_state.y_pos = 0
 
-# --- Section 2: Function to Plot the Visual ---
+# --- 4. Plotting Function ---
 def plot_drone_position():
     x = st.session_state.x_pos
     y = st.session_state.y_pos
@@ -100,7 +133,7 @@ def plot_drone_position():
     ax.scatter([x], [y], marker='o', s=200, label='Drone', zorder=10)
     ax.scatter([0], [0], marker='x', s=100, color='red', label='Home')
     
-    # Make the grid look nice
+    # Set plot limits
     ax.set_xlim(-300, 300)
     ax.set_ylim(-300, 300)
     ax.set_xlabel("West <---> East")
@@ -110,8 +143,8 @@ def plot_drone_position():
     
     st.pyplot(fig)
 
-# --- 3. Streamlit App UI ---
-st.set_page_config(page_title="DroneTalk", page_icon="🛰️", layout="wide")
+# --- 5. Build the Streamlit App UI ---
+st.set_page_config(page_title="DroneTalk", layout="wide")
 
 if nlp:
     st.title("DroneTalk: Voice Pilots Interface")
@@ -128,7 +161,7 @@ if nlp:
             plot_drone_position()
 
     if user_command:
-        # Run Pipeline
+        # --- Run Full Pipeline ---
         doc = nlp(user_command)
         spacy_intents = {k: v for k, v in doc.cats.items() if v > 0.5}
         spacy_slots = {ent.label_.lower(): ent.text for ent in doc.ents}
@@ -141,7 +174,7 @@ if nlp:
         
         final_command_json = generate_command(spacy_output_json)
         
-        # --- UPDATED MOVEMENT LOGIC (DIAGONAL SUPPORT) ---
+        # --- Update Movement Logic (with Diagonal Support) ---
         if final_command_json.get("command") == "MOVE":
             dist = final_command_json.get("distance_meters", 0)
             direction = final_command_json.get("direction", "").lower()
@@ -149,7 +182,7 @@ if nlp:
             # Clean direction string for matching
             direction = direction.replace("-", " ")
             
-            # Check for keywords to handle diagonals (e.g., "north east")
+            # Check for keywords to handle diagonals
             if "north" in direction:
                 st.session_state.y_pos += dist
             if "south" in direction:
@@ -164,10 +197,11 @@ if nlp:
                 st.session_state.y_pos = 0
                 st.success("Returned to Home Base!")
 
+            # Redraw the plot
             with plot_container:
                 plot_drone_position()
 
-        # Display Results
+        # --- Display Results ---
         with col2:
             st.subheader("AI Brain (spaCy)")
             st.json(spacy_output_json)
@@ -180,3 +214,5 @@ if nlp:
             else:
                 st.success("Command Executed")
                 st.json(final_command_json)
+else:
+    st.error("Model is not loaded. Please check the logs.")

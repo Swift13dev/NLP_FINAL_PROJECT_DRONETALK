@@ -1,0 +1,627 @@
+command,intent,direction,distance,duration,task,count
+ascend 331ft,fly,up,331ft,-,-,-
+move up by 11m,fly,up,11m,-,-,-
+move up by 307ft,fly,up,307ft,-,-,-
+move 36m north east,fly,north east,36m,-,-,-
+move up by 223m,fly,up,223m,-,-,-
+go 276m,fly,-,276m,-,-,-
+descend 193m,fly,down,193m,-,-,-
+fly 69m NE,fly,NE,69m,-,-,-
+head south east for 211m,fly,south east,211m,-,-,-
+climb 159m,fly,up,159m,-,-,-
+fly 252ft,fly,-,252ft,-,-,-
+ascend 130ft,fly,up,130ft,-,-,-
+ascend 193m,fly,up,193m,-,-,-
+head north-east for 0.6km,fly,north-east,0.6km,-,-,-
+climb 122ft,fly,up,122ft,-,-,-
+move 73m left,fly,left,73m,-,-,-
+move 144m south-east,fly,south-east,144m,-,-,-
+ascend 474ft,fly,up,474ft,-,-,-
+climb 69m,fly,up,69m,-,-,-
+fly left,fly,left,-,-,-,-
+head north-west for 214m,fly,north-west,214m,-,-,-
+move 231m right,fly,right,231m,-,-,-
+ascend 73m,fly,up,73m,-,-,-
+head north-east for 144m,fly,north-east,144m,-,-,-
+head south for 73m,fly,south,73m,-,-,-
+climb 133ft,fly,up,133ft,-,-,-
+go 88m,fly,-,88m,-,-,-
+move 73m NW,fly,NW,73m,-,-,-
+fly 69m NW,fly,NW,69m,-,-,-
+climb 193m,fly,up,193m,-,-,-
+descend 474ft,fly,down,474ft,-,-,-
+fly 474ft north,fly,north,474ft,-,-,-
+head right for 231m,fly,right,231m,-,-,-
+go 130ft,fly,-,130ft,-,-,-
+move up by 0.6km,fly,up,0.6km,-,-,-
+head NW for 0.6km,fly,NW,0.6km,-,-,-
+climb 307ft,fly,up,307ft,-,-,-
+go 282m,fly,-,282m,-,-,-
+fly south,fly,south,-,-,-,-
+go 69m south,fly,south,69m,-,-,-
+climb 282m,fly,up,282m,-,-,-
+go 69m,fly,-,69m,-,-,-
+descend 36m,fly,down,36m,-,-,-
+climb 211m,fly,up,211m,-,-,-
+fly 186m north-west,fly,north-west,186m,-,-,-
+climb 186m,fly,up,186m,-,-,-
+lower 219ft,fly,down,219ft,-,-,-
+move 307ft NW,fly,NW,307ft,-,-,-
+climb 298m,fly,up,298m,-,-,-
+lower 1.5km,fly,down,1.5km,-,-,-
+fly south east,fly,south east,-,-,-,-
+descend 331ft,fly,down,331ft,-,-,-
+fly 88m,fly,-,88m,-,-,-
+move up by 73m,fly,up,73m,-,-,-
+fly 144m SW,fly,SW,144m,-,-,-
+head east for 222m,fly,east,222m,-,-,-
+lower 190m,fly,down,190m,-,-,-
+fly 242ft SE,fly,SE,242ft,-,-,-
+lower 307ft,fly,down,307ft,-,-,-
+fly south-west,fly,south-west,-,-,-,-
+lower 231m,fly,down,231m,-,-,-
+go 193m left,fly,left,193m,-,-,-
+go 73m north-east,fly,north-east,73m,-,-,-
+descend 219ft,fly,down,219ft,-,-,-
+head south east for 69m,fly,south east,69m,-,-,-
+move 222m right,fly,right,222m,-,-,-
+fly 69m north,fly,north,69m,-,-,-
+go 0.6km,fly,-,0.6km,-,-,-
+fly 0.6km,fly,-,0.6km,-,-,-
+move up by 394ft,fly,up,394ft,-,-,-
+move 278m north east,fly,north east,278m,-,-,-
+ascend 190m,fly,up,190m,-,-,-
+lower 130ft,fly,down,130ft,-,-,-
+lower 214m,fly,down,214m,-,-,-
+fly up,fly,up,-,-,-,-
+move up by 278m,fly,up,278m,-,-,-
+lower 223m,fly,down,223m,-,-,-
+lower 0.9km,fly,down,0.9km,-,-,-
+ascend 252ft,fly,up,252ft,-,-,-
+move 193m north east,fly,north east,193m,-,-,-
+lower 278m,fly,down,278m,-,-,-
+move 159m north-west,fly,north-west,159m,-,-,-
+ascend 307ft,fly,up,307ft,-,-,-
+go 222m,fly,-,222m,-,-,-
+go 57m,fly,-,57m,-,-,-
+fly 282m north,fly,north,282m,-,-,-
+climb 11m,fly,up,11m,-,-,-
+lower 159m,fly,down,159m,-,-,-
+lower 394ft,fly,down,394ft,-,-,-
+go 122ft north west,fly,north west,122ft,-,-,-
+lower 0.6km,fly,down,0.6km,-,-,-
+fly 130ft,fly,-,130ft,-,-,-
+move up by 2.6km,fly,up,2.6km,-,-,-
+head north for 474ft,fly,north,474ft,-,-,-
+ascend 282m,fly,up,282m,-,-,-
+go 73m south-west,fly,south-west,73m,-,-,-
+ascend 242ft,fly,up,242ft,-,-,-
+fly 0.6km right,fly,right,0.6km,-,-,-
+fly south west,fly,south west,-,-,-,-
+fly 276m north west,fly,north west,276m,-,-,-
+ascend 88m,fly,up,88m,-,-,-
+head south-east for 0.6km,fly,south-east,0.6km,-,-,-
+head SE for 282m,fly,SE,282m,-,-,-
+head north for 11m,fly,north,11m,-,-,-
+descend 186m,fly,down,186m,-,-,-
+move up by 144m,fly,up,144m,-,-,-
+head backward for 159m,fly,backward,159m,-,-,-
+move 231m east,fly,east,231m,-,-,-
+climb 219ft,fly,up,219ft,-,-,-
+go 133ft SE,fly,SE,133ft,-,-,-
+fly south-east,fly,south-east,-,-,-,-
+climb 222m,fly,up,222m,-,-,-
+move 0.9km south,fly,south,0.9km,-,-,-
+fly 276m,fly,-,276m,-,-,-
+move 159m left,fly,left,159m,-,-,-
+go 474ft,fly,-,474ft,-,-,-
+fly 190m north west,fly,north west,190m,-,-,-
+fly 1.5km east,fly,east,1.5km,-,-,-
+go 307ft,fly,-,307ft,-,-,-
+head north-east for 193m,fly,north-east,193m,-,-,-
+fly 0.9km,fly,-,0.9km,-,-,-
+fly 474ft east,fly,east,474ft,-,-,-
+move up by 122ft,fly,up,122ft,-,-,-
+go 130ft forward,fly,forward,130ft,-,-,-
+descend 211m,fly,down,211m,-,-,-
+fly 231m,fly,-,231m,-,-,-
+fly 122ft,fly,-,122ft,-,-,-
+descend 190m,fly,down,190m,-,-,-
+go 144m,fly,-,144m,-,-,-
+descend 298m,fly,down,298m,-,-,-
+head south east for 219ft,fly,south east,219ft,-,-,-
+fly 282m south west,fly,south west,282m,-,-,-
+descend 231m,fly,down,231m,-,-,-
+fly north east,fly,north east,-,-,-,-
+move 133ft south-east,fly,south-east,133ft,-,-,-
+move 276m north,fly,north,276m,-,-,-
+climb 231m,fly,up,231m,-,-,-
+move 159m right,fly,right,159m,-,-,-
+fly 122ft down,fly,down,122ft,-,-,-
+descend 307ft,fly,down,307ft,-,-,-
+lower 122ft,fly,down,122ft,-,-,-
+head left for 2.6km,fly,left,2.6km,-,-,-
+go 278m right,fly,right,278m,-,-,-
+descend 0.6km,fly,down,0.6km,-,-,-
+fly 242ft west,fly,west,242ft,-,-,-
+go 242ft north east,fly,north east,242ft,-,-,-
+fly right,fly,right,-,-,-,-
+fly north-west,fly,north-west,-,-,-,-
+move 474ft south-west,fly,south-west,474ft,-,-,-
+climb 190m,fly,up,190m,-,-,-
+fly 1.5km,fly,-,1.5km,-,-,-
+go 214m north west,fly,north west,214m,-,-,-
+fly north,fly,north,-,-,-,-
+fly 144m west,fly,west,144m,-,-,-
+fly 73m,fly,-,73m,-,-,-
+head south-west for 222m,fly,south-west,222m,-,-,-
+go 0.9km,fly,-,0.9km,-,-,-
+move up by 211m,fly,up,211m,-,-,-
+head SW for 0.6km,fly,SW,0.6km,-,-,-
+go 0.6km NE,fly,NE,0.6km,-,-,-
+go 159m west,fly,west,159m,-,-,-
+ascend 298m,fly,up,298m,-,-,-
+ascend 57m,fly,up,57m,-,-,-
+fly 211m left,fly,left,211m,-,-,-
+go 11m south-east,fly,south-east,11m,-,-,-
+climb 36m,fly,up,36m,-,-,-
+ascend 231m,fly,up,231m,-,-,-
+fly 133ft backward,fly,backward,133ft,-,-,-
+move up by 190m,fly,up,190m,-,-,-
+go 1.5km,fly,-,1.5km,-,-,-
+go 73m,fly,-,73m,-,-,-
+descend 122ft,fly,down,122ft,-,-,-
+climb 88m,fly,up,88m,-,-,-
+fly 0.6km east,fly,east,0.6km,-,-,-
+descend 0.9km,fly,down,0.9km,-,-,-
+head south for 0.9km,fly,south,0.9km,-,-,-
+fly 144m north west,fly,north west,144m,-,-,-
+descend 282m,fly,down,282m,-,-,-
+go 1.5km east,fly,east,1.5km,-,-,-
+move 122ft north west,fly,north west,122ft,-,-,-
+ascend 276m,fly,up,276m,-,-,-
+climb 214m,fly,up,214m,-,-,-
+lower 298m,fly,down,298m,-,-,-
+climb 474ft,fly,up,474ft,-,-,-
+go 307ft up,fly,up,307ft,-,-,-
+fly 2.6km south west,fly,south west,2.6km,-,-,-
+fly 159m NW,fly,NW,159m,-,-,-
+move up by 186m,fly,up,186m,-,-,-
+fly 190m,fly,-,190m,-,-,-
+fly 276m north-east,fly,north-east,276m,-,-,-
+fly west,fly,west,-,-,-,-
+go 133ft,fly,-,133ft,-,-,-
+go 159m north east,fly,north east,159m,-,-,-
+fly 2.6km south,fly,south,2.6km,-,-,-
+move up by 36m,fly,up,36m,-,-,-
+fly 159m backward,fly,backward,159m,-,-,-
+fly forward,fly,forward,-,-,-,-
+go 231m,fly,-,231m,-,-,-
+move up by 1.5km,fly,up,1.5km,-,-,-
+go 219ft,fly,-,219ft,-,-,-
+move up by 130ft,fly,up,130ft,-,-,-
+climb 0.6km,fly,up,0.6km,-,-,-
+move 223m forward,fly,forward,223m,-,-,-
+head north-west for 0.6km,fly,north-west,0.6km,-,-,-
+fly 211m SE,fly,SE,211m,-,-,-
+climb 73m,fly,up,73m,-,-,-
+move up by 193m,fly,up,193m,-,-,-
+go 276m forward,fly,forward,276m,-,-,-
+move 231m north-west,fly,north-west,231m,-,-,-
+fly 331ft NE,fly,NE,331ft,-,-,-
+move 394ft SW,fly,SW,394ft,-,-,-
+ascend 222m,fly,up,222m,-,-,-
+descend 252ft,fly,down,252ft,-,-,-
+move 298m right,fly,right,298m,-,-,-
+ascend 133ft,fly,up,133ft,-,-,-
+head east for 276m,fly,east,276m,-,-,-
+go 252ft,fly,-,252ft,-,-,-
+fly 193m,fly,-,193m,-,-,-
+fly 231m right,fly,right,231m,-,-,-
+fly 278m left,fly,left,278m,-,-,-
+head south east for 252ft,fly,south east,252ft,-,-,-
+move 219ft west,fly,west,219ft,-,-,-
+descend 133ft,fly,down,133ft,-,-,-
+move 278m backward,fly,backward,278m,-,-,-
+fly 36m,fly,-,36m,-,-,-
+move up by 242ft,fly,up,242ft,-,-,-
+fly 57m,fly,-,57m,-,-,-
+fly east,fly,east,-,-,-,-
+move up by 252ft,fly,up,252ft,-,-,-
+climb 242ft,fly,up,242ft,-,-,-
+fly 88m down,fly,down,88m,-,-,-
+head SE for 57m,fly,SE,57m,-,-,-
+head backward for 88m,fly,backward,88m,-,-,-
+fly NE,fly,NE,-,-,-,-
+move up by 331ft,fly,up,331ft,-,-,-
+go 190m,fly,-,190m,-,-,-
+fly 130ft north,fly,north,130ft,-,-,-
+ascend 36m,fly,up,36m,-,-,-
+move up by 231m,fly,up,231m,-,-,-
+ascend 0.6km,fly,up,0.6km,-,-,-
+fly NW,fly,NW,-,-,-,-
+descend 1.5km,fly,down,1.5km,-,-,-
+fly 133ft,fly,-,133ft,-,-,-
+fly 57m east,fly,east,57m,-,-,-
+head left for 122ft,fly,left,122ft,-,-,-
+descend 2.6km,fly,down,2.6km,-,-,-
+fly 474ft,fly,-,474ft,-,-,-
+lower 282m,fly,down,282m,-,-,-
+go 57m east,fly,east,57m,-,-,-
+fly SE,fly,SE,-,-,-,-
+head NE for 36m,fly,NE,36m,-,-,-
+fly 252ft up,fly,up,252ft,-,-,-
+climb 144m,fly,up,144m,-,-,-
+head NE for 223m,fly,NE,223m,-,-,-
+go 331ft,fly,-,331ft,-,-,-
+fly 0.6km up,fly,up,0.6km,-,-,-
+move up by 69m,fly,up,69m,-,-,-
+descend 394ft,fly,down,394ft,-,-,-
+go 276m right,fly,right,276m,-,-,-
+move 0.9km west,fly,west,0.9km,-,-,-
+lower 242ft,fly,down,242ft,-,-,-
+fly 130ft south east,fly,south east,130ft,-,-,-
+go 122ft,fly,-,122ft,-,-,-
+lower 331ft,fly,down,331ft,-,-,-
+move up by 474ft,fly,up,474ft,-,-,-
+head south east for 190m,fly,south east,190m,-,-,-
+head north west for 214m,fly,north west,214m,-,-,-
+move 73m south-east,fly,south-east,73m,-,-,-
+move 0.9km north-west,fly,north-west,0.9km,-,-,-
+go 0.6km north west,fly,north west,0.6km,-,-,-
+move 144m left,fly,left,144m,-,-,-
+fly backward,fly,backward,-,-,-,-
+go 331ft NE,fly,NE,331ft,-,-,-
+fly 242ft,fly,-,242ft,-,-,-
+fly north west,fly,north west,-,-,-,-
+fly 214m,fly,-,214m,-,-,-
+go 36m west,fly,west,36m,-,-,-
+go 57m NE,fly,NE,57m,-,-,-
+fly 231m down,fly,down,231m,-,-,-
+move up by 133ft,fly,up,133ft,-,-,-
+move 219ft right,fly,right,219ft,-,-,-
+move 278m north-east,fly,north-east,278m,-,-,-
+fly 474ft north east,fly,north east,474ft,-,-,-
+lower 2.6km,fly,down,2.6km,-,-,-
+move up by 222m,fly,up,222m,-,-,-
+go 2.6km,fly,-,2.6km,-,-,-
+fly 57m west,fly,west,57m,-,-,-
+descend 11m,fly,down,11m,-,-,-
+fly 36m south-west,fly,south-west,36m,-,-,-
+fly 214m north west,fly,north west,214m,-,-,-
+fly 219ft north east,fly,north east,219ft,-,-,-
+head right for 69m,fly,right,69m,-,-,-
+move up by 282m,fly,up,282m,-,-,-
+climb 57m,fly,up,57m,-,-,-
+take a photo,capture,-,-,-,capture,1
+snap 17 photos,capture,-,-,-,capture,17
+take 1 images of the up side,capture,up,-,-,capture,1
+take 1 pictures of the right side,capture,right,-,-,capture,1
+capture 14 pics,capture,-,-,-,capture,14
+get me 19 photos,capture,-,-,-,capture,19
+capture 12 shots,capture,-,-,-,capture,12
+take 19 images of the forward side,capture,forward,-,-,capture,19
+take 19 pics of the north side,capture,north,-,-,capture,19
+take 17 photos,capture,-,-,-,capture,17
+snap 18 shots,capture,-,-,-,capture,18
+capture 14 photos,capture,-,-,-,capture,14
+snap 10 images,capture,-,-,-,capture,10
+take 17 photos of the backward side,capture,backward,-,-,capture,17
+snap a picture,capture,-,-,-,capture,1
+take 14 photos,capture,-,-,-,capture,14
+take 13 images,capture,-,-,-,capture,13
+take 4 shots of the east side,capture,east,-,-,capture,4
+snap 16 shots,capture,-,-,-,capture,16
+take 17 shots of the west side,capture,west,-,-,capture,17
+take 16 shots,capture,-,-,-,capture,16
+take 1 images of the forward side,capture,forward,-,-,capture,1
+capture 12 photos,capture,-,-,-,capture,12
+get me 16 photos,capture,-,-,-,capture,16
+get me 10 pictures,capture,-,-,-,capture,10
+get me 18 shots,capture,-,-,-,capture,18
+capture 1 images,capture,-,-,-,capture,1
+take 4 shots of the left side,capture,left,-,-,capture,4
+take 12 pictures,capture,-,-,-,capture,12
+capture 19 pics,capture,-,-,-,capture,19
+snap 17 pictures,capture,-,-,-,capture,17
+snap 10 photos,capture,-,-,-,capture,10
+take 17 images,capture,-,-,-,capture,17
+get me 19 images,capture,-,-,-,capture,19
+take 13 pics,capture,-,-,-,capture,13
+snap 17 images,capture,-,-,-,capture,17
+take 12 pics of the up side,capture,up,-,-,capture,12
+take 14 images of the north side,capture,north,-,-,capture,14
+get me 14 images,capture,-,-,-,capture,14
+take 18 pics of the left side,capture,left,-,-,capture,18
+take 17 photos of the left side,capture,left,-,-,capture,17
+snap 8 images,capture,-,-,-,capture,8
+take 12 pics,capture,-,-,-,capture,12
+snap 12 pictures,capture,-,-,-,capture,12
+capture 14 shots,capture,-,-,-,capture,14
+take 8 photos of the right side,capture,right,-,-,capture,8
+take 8 pictures,capture,-,-,-,capture,8
+take 17 images of the up side,capture,up,-,-,capture,17
+take 18 shots,capture,-,-,-,capture,18
+get me 6 photos,capture,-,-,-,capture,6
+capture 19 photos,capture,-,-,-,capture,19
+capture 18 shots,capture,-,-,-,capture,18
+take 16 pictures,capture,-,-,-,capture,16
+get me 13 pictures,capture,-,-,-,capture,13
+take 19 pictures,capture,-,-,-,capture,19
+take 10 images of the east side,capture,east,-,-,capture,10
+take 10 shots of the backward side,capture,backward,-,-,capture,10
+take 19 shots of the down side,capture,down,-,-,capture,19
+take 16 pics,capture,-,-,-,capture,16
+take 19 shots,capture,-,-,-,capture,19
+get me 18 photos,capture,-,-,-,capture,18
+capture 18 images,capture,-,-,-,capture,18
+take 1 images,capture,-,-,-,capture,1
+take 19 shots of the west side,capture,west,-,-,capture,19
+take 19 pics,capture,-,-,-,capture,19
+take 17 pictures of the down side,capture,down,-,-,capture,17
+get me 16 pictures,capture,-,-,-,capture,16
+snap 6 images,capture,-,-,-,capture,6
+capture 4 pics,capture,-,-,-,capture,4
+snap 19 photos,capture,-,-,-,capture,19
+take 16 photos of the right side,capture,right,-,-,capture,16
+snap 1 pictures,capture,-,-,-,capture,1
+get me 8 pictures,capture,-,-,-,capture,8
+snap 6 pics,capture,-,-,-,capture,6
+take 6 shots,capture,-,-,-,capture,6
+get me 8 photos,capture,-,-,-,capture,8
+capture 8 images,capture,-,-,-,capture,8
+get me 6 pictures,capture,-,-,-,capture,6
+take 18 photos,capture,-,-,-,capture,18
+snap 8 pictures,capture,-,-,-,capture,8
+capture 8 photos,capture,-,-,-,capture,8
+snap 6 pictures,capture,-,-,-,capture,6
+snap 10 pictures,capture,-,-,-,capture,10
+take 6 photos of the north side,capture,north,-,-,capture,6
+snap 12 shots,capture,-,-,-,capture,12
+get me 17 shots,capture,-,-,-,capture,17
+take 18 pics of the east side,capture,east,-,-,capture,18
+snap 18 pics,capture,-,-,-,capture,18
+get me 16 images,capture,-,-,-,capture,16
+get me 17 pictures,capture,-,-,-,capture,17
+take 10 photos of the left side,capture,left,-,-,capture,10
+snap 19 pictures,capture,-,-,-,capture,19
+snap 14 shots,capture,-,-,-,capture,14
+hover for 15 seconds,hover,-,-,15 seconds,-,-
+stay still for 16 seconds,hover,-,-,16 seconds,-,-
+hold position for 19 seconds,hover,-,-,19 seconds,-,-
+hover in place,hover,-,-,-,-,-
+hover for 16 seconds,hover,-,-,16 seconds,-,-
+hover for 60s,hover,-,-,60s,-,-
+stay still for 30s,hover,-,-,30s,-,-
+hover for 30s,hover,-,-,30s,-,-
+hold position for 9m,hover,-,-,9m,-,-
+hover for 7 seconds,hover,-,-,7 seconds,-,-
+hover for 1 minutes,hover,-,-,1 minutes,-,-
+hover for 5 minutes,hover,-,-,5 minutes,-,-
+hover for 4 minutes,hover,-,-,4 minutes,-,-
+hold position for 10m,hover,-,-,10m,-,-
+hover for 10m,hover,-,-,10m,-,-
+hover for 34s,hover,-,-,34s,-,-
+hold position for 5 minutes,hover,-,-,5 minutes,-,-
+hover for 2m,hover,-,-,2m,-,-
+hold position for 22s,hover,-,-,22s,-,-
+stay still for 40s,hover,-,-,40s,-,-
+hold position for 44s,hover,-,-,44s,-,-
+hover for 19 seconds,hover,-,-,19 seconds,-,-
+hold position for 16 seconds,hover,-,-,16 seconds,-,-
+stay still for 34s,hover,-,-,34s,-,-
+stay still for 5 minutes,hover,-,-,5 minutes,-,-
+hover for 22s,hover,-,-,22s,-,-
+hold position for 30s,hover,-,-,30s,-,-
+stay still for 15 seconds,hover,-,-,15 seconds,-,-
+stay still for 10m,hover,-,-,10m,-,-
+stay still for 27s,hover,-,-,27s,-,-
+hover for 40s,hover,-,-,40s,-,-
+stay still for 7 seconds,hover,-,-,7 seconds,-,-
+hover for 9m,hover,-,-,9m,-,-
+stay still for 9m,hover,-,-,9m,-,-
+stay still for 4 minutes,hover,-,-,4 minutes,-,-
+hold position for 1 minutes,hover,-,-,1 minutes,-,-
+hold position for 16s,hover,-,-,16s,-,-
+stay still for 22s,hover,-,-,22s,-,-
+hold position for 7 seconds,hover,-,-,7 seconds,-,-
+scan for 10m,scan,-,-,-,scan,-
+scan the area,scan,-,-,-,scan,-
+scan surroundings,scan,-,-,-,scan,-
+scan for 5 minutes,scan,-,-,-,scan,-
+scan the backward side for 4 minutes,scan,-,-,-,scan,-
+scan the up side for 19 seconds,scan,-,-,-,scan,-
+scan the forward side for 19 seconds,scan,-,-,-,scan,-
+scan the west side for 9m,scan,-,-,-,scan,-
+scan the right side for 34s,scan,-,-,-,scan,-
+scan for 7 seconds,scan,-,-,-,scan,-
+scan for 19 seconds,scan,-,-,-,scan,-
+scan the left side for 16 seconds,scan,-,-,-,scan,-
+come back now,return,-,-,-,-,-
+return to base,return,-,-,-,-,-
+go home,return,-,-,-,-,-
+RTL,return,-,-,-,-,-
+return to launch,return,-,-,-,-,-
+touchdown,land,-,-,-,-,-
+land,land,-,-,-,-,-
+land the drone,land,-,-,-,-,-
+land at home base,land,-,-,-,-,-
+initiate sequence,start,-,-,-,record,-
+start scan,start,-,-,-,record,-
+begin,start,-,-,-,record,-
+start mission,start,-,-,-,record,-
+start recording,start,-,-,-,record,-
+stop recording,stop,-,-,-,record,-
+stop,stop,-,-,-,record,-
+abort mission,stop,-,-,-,record,-
+halt,stop,-,-,-,record,-
+emergency stop,stop,-,-,-,record,-
+get in the air,takeoff,-,-,-,-,-
+launch,takeoff,-,-,-,-,-
+initiate takeoff,takeoff,-,-,-,-,-
+take off,takeoff,-,-,-,-,-
+scan for 60s then return to base,scan,-,-,60s,return,-
+fly 252ft down and take 8 pictures,fly,down,252ft,-,capture,8
+take 10 images then land,capture,-,-,-,land,10
+take off and go 159m south-west,takeoff,south-west,159m,-,fly,-
+go 282m north-east then scan for 15 seconds,fly,north-east,282m,15 seconds,scan,-
+take 18 photos then land,capture,-,-,-,land,18
+take off and go 144m up,takeoff,up,144m,-,fly,-
+take 19 shots then land,capture,-,-,-,land,19
+fly 73m backward and take 8 shots,fly,backward,73m,-,capture,8
+take 18 pics then land,capture,-,-,-,land,18
+go 0.6km north-east then scan for 35s,fly,north-east,0.6km,35s,scan,-
+move 0.6km down and record video for 19 seconds,fly,down,0.6km,19 seconds,record,-
+scan for 10m then return to base,scan,-,-,10m,return,-
+take off and go 190m south-east,takeoff,south-east,190m,-,fly,-
+move 159m right and record video for 16s,fly,right,159m,16s,record,-
+fly 276m SW and take 19 pictures,fly,SW,276m,-,capture,19
+take 1 images then land,capture,-,-,-,land,1
+take off and go 222m backward,takeoff,backward,222m,-,fly,-
+go 122ft left then scan for 10m,fly,left,122ft,10m,scan,-
+hover for 15 seconds then take 16 images,hover,-,-,15 seconds,capture,16
+go 242ft forward then scan for 16 seconds,fly,forward,242ft,16 seconds,scan,-
+hover for 10m then take 6 images,hover,-,-,10m,capture,6
+scan for 7 seconds then return to base,scan,-,-,7 seconds,return,-
+take 6 images then land,capture,-,-,-,land,6
+take 13 images then land,capture,-,-,-,land,13
+take off and go 69m south-west,takeoff,south-west,69m,-,fly,-
+fly 159m north east and take 17 images,fly,north east,159m,-,capture,17
+hover for 60s then take 4 pics,hover,-,-,60s,capture,4
+go 222m west then scan for 40s,fly,west,222m,40s,scan,-
+take off and go 2.6km north west,takeoff,north west,2.6km,-,fly,-
+climb 0.6km and hover,fly,up,0.6km,-,hover,-
+climb 122ft and hover,fly,up,122ft,-,hover,-
+climb 11m and hover,fly,up,11m,-,hover,-
+move 222m north and record video for 15 seconds,fly,north,222m,15 seconds,record,-
+climb 394ft and hover,fly,up,394ft,-,hover,-
+climb 57m and hover,fly,up,57m,-,hover,-
+climb 282m and hover,fly,up,282m,-,hover,-
+take 10 pictures then land,capture,-,-,-,land,10
+fly 276m south-west and take 10 shots,fly,south-west,276m,-,capture,10
+fly 186m up and take 12 shots,fly,up,186m,-,capture,12
+move 231m SE and record video for 16s,fly,SE,231m,16s,record,-
+climb 276m and hover,fly,up,276m,-,hover,-
+move 298m north-east and record video for 7 seconds,fly,north-east,298m,7 seconds,record,-
+go 223m SW then scan for 16 seconds,fly,SW,223m,16 seconds,scan,-
+take 8 shots then land,capture,-,-,-,land,8
+hover for 19 seconds then take 13 shots,hover,-,-,19 seconds,capture,13
+climb 190m and hover,fly,up,190m,-,hover,-
+fly 231m SW and take 17 pics,fly,SW,231m,-,capture,17
+fly 73m south and take 10 shots,fly,south,73m,-,capture,10
+move 2.6km north and record video for 16s,fly,north,2.6km,16s,record,-
+scan for 5 minutes then return to base,scan,-,-,5 minutes,return,-
+take off and go 0.6km NE,takeoff,NE,0.6km,-,fly,-
+hover for 4 minutes then take 10 photos,hover,-,-,4 minutes,capture,10
+fly 331ft west and take 19 pics,fly,west,331ft,-,capture,19
+climb 144m and hover,fly,up,144m,-,hover,-
+take 19 pics then land,capture,-,-,-,land,19
+move 36m south west and record video for 4 minutes,fly,south west,36m,4 minutes,record,-
+go 0.6km east then scan for 16s,fly,east,0.6km,16s,scan,-
+move 186m east and record video for 40s,fly,east,186m,40s,record,-
+scan for 27s then return to base,scan,-,-,27s,return,-
+take 12 pictures then land,capture,-,-,-,land,12
+take 16 pics then land,capture,-,-,-,land,16
+hover for 9m then take 12 photos,hover,-,-,9m,capture,12
+fly 130ft north east and take 6 images,fly,north east,130ft,-,capture,6
+scan for 30s then return to base,scan,-,-,30s,return,-
+take off and go 122ft south west,takeoff,south west,122ft,-,fly,-
+scan for 4 minutes then return to base,scan,-,-,4 minutes,return,-
+go 11m north then scan for 16s,fly,north,11m,16s,scan,-
+fly 278m south west and take 10 pics,fly,south west,278m,-,capture,10
+scan for 44s then return to base,scan,-,-,44s,return,-
+hover for 19 seconds then take 10 photos,hover,-,-,19 seconds,capture,10
+hover for 27s then take 19 pics,hover,-,-,27s,capture,19
+take off and go 73m south west,takeoff,south west,73m,-,fly,-
+go 231m NE then scan for 16 seconds,fly,NE,231m,16 seconds,scan,-
+take 10 shots then land,capture,-,-,-,land,10
+take 17 pics then land,capture,-,-,-,land,17
+fly 73m down and take 17 shots,fly,down,73m,-,capture,17
+fly 214m right and take 6 images,fly,right,214m,-,capture,6
+climb 2.6km and hover,fly,up,2.6km,-,hover,-
+hover for 4 minutes then take 14 images,hover,-,-,4 minutes,capture,14
+take 17 shots then land,capture,-,-,-,land,17
+fly 0.9km SE and take 18 photos,fly,SE,0.9km,-,capture,18
+go 282m up then scan for 10m,fly,up,282m,10m,scan,-
+hover for 22s then take 19 pics,hover,-,-,22s,capture,19
+fly 159m north and take 1 pics,fly,north,159m,-,capture,1
+scan for 16s then return to base,scan,-,-,16s,return,-
+climb 130ft and hover,fly,up,130ft,-,hover,-
+move 282m SE and record video for 44s,fly,SE,282m,44s,record,-
+go 231m right then scan for 10m,fly,right,231m,10m,scan,-
+scan for 40s then return to base,scan,-,-,40s,return,-
+take 19 photos then land,capture,-,-,-,land,19
+go 73m NE then scan for 40s,fly,NE,73m,40s,scan,-
+hover for 7 seconds then take 12 shots,hover,-,-,7 seconds,capture,12
+hover for 60s then take 17 photos,hover,-,-,60s,capture,17
+scan for 2m then return to base,scan,-,-,2m,return,-
+fly 214m south west and take 17 shots,fly,south west,214m,-,capture,17
+fly 331ft NE and take 19 pictures,fly,NE,331ft,-,capture,19
+take off and go 133ft left,takeoff,left,133ft,-,fly,-
+scan for 15 seconds then return to base,scan,-,-,15 seconds,return,-
+hover for 30s then take 13 images,hover,-,-,30s,capture,13
+take 19 pictures then land,capture,-,-,-,land,19
+hover for 10m then take 12 shots,hover,-,-,10m,capture,12
+climb 193m and hover,fly,up,193m,-,hover,-
+take 17 photos then land,capture,-,-,-,land,17
+hover for 30s then take 8 images,hover,-,-,30s,capture,8
+hover for 4 minutes then take 14 shots,hover,-,-,4 minutes,capture,14
+fly 186m north west and take 19 photos,fly,north west,186m,-,capture,19
+take 19 images then land,capture,-,-,-,land,19
+go 0.6km north then scan for 40s,fly,north,0.6km,40s,scan,-
+go 0.9km north west then scan for 4 minutes,fly,north west,0.9km,4 minutes,scan,-
+take 4 pictures then land,capture,-,-,-,land,4
+hover for 10m then take 1 images,hover,-,-,10m,capture,1
+go 57m left then scan for 7 seconds,fly,left,57m,7 seconds,scan,-
+move 307ft left and record video for 4 minutes,fly,left,307ft,4 minutes,record,-
+move 144m north east and record video for 5 minutes,fly,north east,144m,5 minutes,record,-
+fly 307ft north east and take 14 shots,fly,north east,307ft,-,capture,14
+hover for 10m then take 14 pics,hover,-,-,10m,capture,14
+move 278m right and record video for 16 seconds,fly,right,278m,16 seconds,record,-
+fly 0.9km NE and take 13 images,fly,NE,0.9km,-,capture,13
+go 242ft forward then scan for 34s,fly,forward,242ft,34s,scan,-
+fly 242ft west and take 1 pics,fly,west,242ft,-,capture,1
+hover for 7 seconds then take 19 pictures,hover,-,-,7 seconds,capture,19
+move 282m down and record video for 40s,fly,down,282m,40s,record,-
+take off and go 186m NE,takeoff,NE,186m,-,fly,-
+take off and go 133ft NW,takeoff,NW,133ft,-,fly,-
+take off and go 186m north-east,takeoff,north-east,186m,-,fly,-
+go 11m left then scan for 16s,fly,left,11m,16s,scan,-
+take 10 pics then land,capture,-,-,-,land,10
+move 223m south-east and record video for 27s,fly,south-east,223m,27s,record,-
+climb 242ft and hover,fly,up,242ft,-,hover,-
+take off and go 190m north-east,takeoff,north-east,190m,-,fly,-
+fly 190m left and take 8 shots,fly,left,190m,-,capture,8
+take off and go 11m west,takeoff,west,11m,-,fly,-
+move 193m south and record video for 16 seconds,fly,south,193m,16 seconds,record,-
+take 18 shots then land,capture,-,-,-,land,18
+go 223m north west then scan for 30s,fly,north west,223m,30s,scan,-
+move 282m east and record video for 19 seconds,fly,east,282m,19 seconds,record,-
+climb 219ft and hover,fly,up,219ft,-,hover,-
+hover for 19 seconds then take 19 pictures,hover,-,-,19 seconds,capture,19
+take off and go 159m north west,takeoff,north west,159m,-,fly,-
+go 278m south-west then scan for 7 seconds,fly,south-west,278m,7 seconds,scan,-
+move 1.5km SW and record video for 4 minutes,fly,SW,1.5km,4 minutes,record,-
+hover for 19 seconds then take 19 images,hover,-,-,19 seconds,capture,19
+fly 36m east and take 1 shots,fly,east,36m,-,capture,1
+move 0.6km east and record video for 7 seconds,fly,east,0.6km,7 seconds,record,-
+move 474ft north and record video for 22s,fly,north,474ft,22s,record,-
+move 133ft up and record video for 9m,fly,up,133ft,9m,record,-
+go 57m north west then scan for 2m,fly,north west,57m,2m,scan,-
+go 219ft south west then scan for 27s,fly,south west,219ft,27s,scan,-
+hover for 19 seconds then take 17 pictures,hover,-,-,19 seconds,capture,17
+move 36m east and record video for 16s,fly,east,36m,16s,record,-
+take off and go 130ft right,takeoff,right,130ft,-,fly,-
+climb 307ft and hover,fly,up,307ft,-,hover,-
+scan for 9m then return to base,scan,-,-,9m,return,-
+hover for 27s then take 14 shots,hover,-,-,27s,capture,14
+move 214m forward and record video for 7 seconds,fly,forward,214m,7 seconds,record,-
+move 231m south-west and record video for 60s,fly,south-west,231m,60s,record,-
+fly 122ft west and take 12 pics,fly,west,122ft,-,capture,12
+scan for 19 seconds then return to base,scan,-,-,19 seconds,return,-
+take 1 pictures then land,capture,-,-,-,land,1
+go 214m SW then scan for 16s,fly,SW,214m,16s,scan,-
+hover for 30s then take 17 shots,hover,-,-,30s,capture,17
+hover for 10m then take 12 pics,hover,-,-,10m,capture,12
+take 1 shots then land,capture,-,-,-,land,1
+move 394ft forward and record video for 40s,fly,forward,394ft,40s,record,-

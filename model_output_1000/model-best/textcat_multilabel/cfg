@@ -1,0 +1,15 @@
+{
+  "labels":[
+    "fly",
+    "land",
+    "hover",
+    "capture",
+    "record",
+    "scan",
+    "return",
+    "start",
+    "stop",
+    "takeoff"
+  ],
+  "threshold":0.5
+}

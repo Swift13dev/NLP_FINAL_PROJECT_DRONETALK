@@ -3,6 +3,7 @@ import spacy
 import json
 import re
 import matplotlib.pyplot as plt
+import os
 
 # --- 1. Load our NEW 1000-Command Model ---
 @st.cache_resource

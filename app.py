@@ -4,20 +4,10 @@ import json
 import re
 import matplotlib.pyplot as plt
 import os
-from spacy.cli import download
-
-# --- Auto-download the base English model if not present ---
-try:
-    spacy.load("en_core_web_sm")
-except OSError:
-    print("Downloading en_core_web_sm model...")
-    download("en_core_web_sm")
 
 # --- 1. Smart Model Loader ---
-# This function finds the model folder, no matter where it is
 @st.cache_resource
 def load_model():
-    print("Attempting to load model...")
     # Get the absolute path of the directory this script is in
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
@@ -31,19 +21,13 @@ def load_model():
     model_path_root = script_dir
 
     if os.path.exists(model_path_standard):
-        print(f"Found model at: {model_path_standard}")
         return spacy.load(model_path_standard)
     elif os.path.exists(model_path_flat):
-        print(f"Found model at: {model_path_flat}")
         return spacy.load(model_path_flat)
     elif os.path.exists(os.path.join(model_path_root, "config.cfg")):
-        print(f"Found model at: {model_path_root}")
         return spacy.load(model_path_root)
     else:
-        st.error(f"ERROR: Could not find model files.")
-        st.error(f"Checked in: {model_path_standard}")
-        st.error(f"Checked in: {model_path_flat}")
-        st.error(f"Checked in: {model_path_root}")
+        st.error("ERROR: Could not find model files.")
         return None
 
 nlp = load_model()

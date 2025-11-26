@@ -1,5 +1,10 @@
-streamlit
+streamlit==1.36.0
+spacy==3.7.2
 pandas
 matplotlib
-spacy>=3.7.0,<3.8.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Fix dependency conflicts in Streamlit Cloud
+pygments==2.15.1
+markdown-it-py==2.2.0
+mdurl==0.1.2
+rich==13.4.2

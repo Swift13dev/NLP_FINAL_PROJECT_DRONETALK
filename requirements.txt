@@ -1,8 +1,8 @@
 streamlit==1.38.0
 spacy==3.8.7
-thinc==8.3.0
-srsly
-catalogue
-confection
+thinc>=8.3.4,<8.4.0
+srsly>=2.4.0
+catalogue>=2.0.0
+confection>=0.1.0
 numpy
 matplotlib

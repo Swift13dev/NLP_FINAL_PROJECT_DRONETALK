@@ -5,6 +5,7 @@ import re
 import matplotlib.pyplot as plt
 import os
 
+st.set_page_config(page_title="DroneTalk", layout="wide")
 # --- 1. Smart Model Loader ---
 @st.cache_resource
 def load_model():
@@ -128,7 +129,7 @@ def plot_drone_position():
     st.pyplot(fig)
 
 # --- 5. Build the Streamlit App UI ---
-st.set_page_config(page_title="DroneTalk", layout="wide")
+#st.set_page_config(page_title="DroneTalk", layout="wide")
 
 if nlp:
     st.title("DroneTalk: Voice Pilots Interface")
